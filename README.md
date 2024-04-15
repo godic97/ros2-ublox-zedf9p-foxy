@@ -48,6 +48,8 @@ Note: Values are published on `/fix` topic
    ```sudo apt-get install libasio-dev```
 Source and build again.
 
+2. GPS port(/dev/ttyACM0) busy
+   ```sudo fuser -k /dev/ttyACM0```
 
 ## Options
 The `ublox_gps` node supports the following parameters for all products and firmware versions:
